@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/digital-note-vector-lined-paper-element-memphis-style_53876-126422.jpg?size=338&ext=jpg&ga=GA1.1.1687694167.1711756800&semt=ais");
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+   
+}
+/*selector using html tag name */
+p{
+    color: blue;
+    font-size: 20px;
+}
+/*selector using class selector */
+.notes{
+    color:darkorange;
+}
+/*selector using id selector */
+#selectordemo{
+    color: brown;
+}
+/*selector using attribute selector */
+li[value="3"]{
+    color: darkcyan;
+}
+/*selector using universal selector */
+*{
+    color: deeppink;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+    
+        p[value="1"]{
+            border-style: dotted dashed double solid;
+        }
+        p[value="2"]{
+            color: black;
+            border-style: dotted solid double;
+        }
+        p[value="3"]{
+            border-style: dotted double;
+        }
+        p[value="4"]{
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<link 
+rel="stylesheet" 
+href="./selectorstyle.css">
+
+<body>
+    <h1>CSS SELECTOR</h1>
+    <p>This is paragraph</p>
+    <ol>
+        <li class="notes" value="1">1st page of the notes</li>
+        <li class="note" value="2" id="selectordemo">2nd page of the notes</li>
+        <li class="note" value="3" draggable="false">3rd page of the notes</li>
+        <li class="note" value="4">4th page of the notes</li>
+    </ol>
+    <p value="1">
+       Line1
+    </p>
+    <p value="2">
+        line2
+    </p>
+    <p value="3">
+        line3
+    </p>
+    <p value="4">
+        line4
+    </p>
+
+</body>
+</html>
